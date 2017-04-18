@@ -1,10 +1,11 @@
 /**
  * Created by ramazan on 18.04.2017.
  */
-public class ThreadSample extends Thread {
+//extends Thread ile de kullanilabilir...
+public class ThreadSample implements Runnable {
     public static void main(String[] args) {
         ThreadSample threadSample=new ThreadSample();
-        threadSample.start();
+        threadSample.run();
         for (int i = 0; i < 10; i++) {
             System.out.println(" Main Method  "+ i);
             try {
