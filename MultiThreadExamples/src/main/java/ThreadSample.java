@@ -4,8 +4,9 @@
 //extends Thread ile de kullanilabilir...
 public class ThreadSample implements Runnable {
     public static void main(String[] args) {
-        ThreadSample threadSample=new ThreadSample();
-        threadSample.run();
+        Thread thread=new Thread(new ThreadSample());
+        thread.start();
+
         for (int i = 0; i < 10; i++) {
             System.out.println(" Main Method  "+ i);
             try {
