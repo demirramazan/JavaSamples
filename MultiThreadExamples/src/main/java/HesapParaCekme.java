@@ -31,4 +31,13 @@ public class HesapParaCekme implements Runnable {
         t2.start();
         t3.start();
     }
+    /*Ali 900.0 tl para Cekti.. kalan bakiye: 100.0
+
+    Mehmet hesapta istenilen miktarda para yok..
+    Cekilmek istenen para miktari 500.0
+    Bakiye Tutari100.0
+
+    Ahmet hesapta istenilen miktarda para yok..
+    Cekilmek istenen para miktari 300.0
+    Bakiye Tutari100.0*/
 }
