@@ -1,1 +1,3 @@
 # JavaSamples
+
+Java örnek uygulamalar
