@@ -1,6 +1,10 @@
 
 package com.javaexamples;
 
+import com.javaexamples.other.Bolme;
+import com.javaexamples.other.Carpma;
+import com.javaexamples.other.Cikarma;
+import com.javaexamples.other.Toplama;
 import org.junit.*;
 
 import static org.junit.Assert.*;
