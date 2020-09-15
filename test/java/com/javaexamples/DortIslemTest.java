@@ -1,7 +1,6 @@
 
-package javaornekuygulamalar;
+package com.javaexamples;
 
-import javaornekuygulamalar.Cikarma;
 import org.junit.*;
 
 import static org.junit.Assert.*;

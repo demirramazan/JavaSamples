@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaornekuygulamalar;
+package com.javaexamples;
 
 /**
  *
  * @author ramazan
  */
-public class Carpma extends DortIslem {
+public class Cikarma extends DortIslem {
 
     @Override
     public int hesaplama() {
-        return getSayi1() * getSayi2();
+        return Math.abs(getSayi1() - getSayi2());
     }
 
 }
