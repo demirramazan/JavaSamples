@@ -17,14 +17,14 @@ public class SixthDaySolution {
         String[] strings = stringBuilder.toString().split("\n");
         StringBuilder tekCift = new StringBuilder();
         for (int i = 0; i < strings.length; i++) {
-            String tek = "";
-            String cift = "";
+            StringBuilder tek = new StringBuilder();
+            StringBuilder cift = new StringBuilder();
             for (int j = 0; j < strings[i].length(); j++) {
                 char c = strings[i].charAt(j);
                 if (j == 0 || j % 2 == 0) {
-                    cift += c;
+                    cift.append(c);
                 } else {
-                    tek += c;
+                    tek.append(c);
 
                 }
             }

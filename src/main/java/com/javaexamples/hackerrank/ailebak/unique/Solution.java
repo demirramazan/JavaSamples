@@ -19,7 +19,7 @@ class Result {
 
         for (int i = 0; i < length; i++) {
             char c = s.charAt(i);
-            count.put(c, count.get(c) + 1);
+            count.put(c, count.getOrDefault(c,0) + 1);
         }
 
 

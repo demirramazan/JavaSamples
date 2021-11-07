@@ -55,7 +55,7 @@ public class Solution {
 
 //        int upRightCount = Integer.parseInt(bufferedReader.readLine().trim());
 
-        List<String> upRight = Arrays.asList(new String[]{"1 4", "2 3", "4 1"});
+        List<String> upRight = Arrays.asList("1 4", "2 3", "4 1");
 
         long result = Result.countMax(upRight);
         System.out.println("result = " + result);
